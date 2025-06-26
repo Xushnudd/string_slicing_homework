@@ -7,4 +7,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    a = s[:-n]
+    return a
+print(main("Salom", 2))
